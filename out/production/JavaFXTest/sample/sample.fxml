@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
@@ -11,6 +12,7 @@
          <children>
             <Slider fx:id="slider" />
             <Label fx:id="label" layoutX="94.0" layoutY="87.0" prefHeight="17.0" prefWidth="160.0" text="Label" />
+            <ListView layoutX="131.0" layoutY="129.0" prefHeight="200.0" prefWidth="200.0" />
          </children>
       </AnchorPane>
    </center>
